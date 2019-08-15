@@ -1,0 +1,28 @@
+{
+  "name": "projj-move",
+  "version": "0.0.1",
+  "description": "One-key migration tool based on projj",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "projj-move": "bin/projj-move.js"
+  },
+  "keywords": [
+    "move projj"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:memoryza/projj-move.git"
+  },
+  "author": "jincai.wang@foxmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.2"
+  }
+}
