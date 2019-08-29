@@ -1,6 +1,6 @@
 {
   "name": "projj-move",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "One-key migration tool based on projj",
   "main": "index.js",
   "scripts": {

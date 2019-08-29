@@ -9,7 +9,7 @@ const { exec } = require('child_process');
 const defaultFilename = 'config.js';
 
 module.exports = function (filename) {
-  const filePath = path.join(__dirname, filename === true ? defaultFilename : filename);
+  const filePath = path.resolve(filename === true ? defaultFilename : filename);
   if (!fs.existsSync(filePath)) {
     return console.log(chalk.red(`[no file]: file: ${filePath } not found`));
   }
